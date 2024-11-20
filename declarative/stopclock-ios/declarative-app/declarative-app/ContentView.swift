@@ -25,7 +25,7 @@ struct StopwatchView: View {
             
             // Start/Stop Button
             Button(action: toggleTimer) {
-                Text(isRunning ? "Stop" : "starkt")
+                Text(isRunning ? "Stop" : "Start")
                     .font(.body)
                     .padding()
                     .background(.blue)

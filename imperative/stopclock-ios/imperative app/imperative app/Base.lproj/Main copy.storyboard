@@ -51,7 +51,7 @@
                     <connections>
                         <outlet property="pauseButton" destination="nJv-oc-G6l" id="LIU-ba-MxD"/>
                         <outlet property="startStopBtn" destination="1yk-Wn-4Xp" id="tQC-te-iq0"/>
-                        <outlet property="timeLabel" destination="ffo-jf-wsK" id="UTj-UJ-kB0"/>
+                        <outlet property="timeLabel" destination="ffo-jf-wsK" id="3yX-yQ-7nE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

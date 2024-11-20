@@ -16,8 +16,11 @@
 
 @property (strong, nonatomic) NSTimer *timer;
 @property (strong, nonatomic) NSDate *startTime;
-@property (strong, nonatomic) NSDate *currentTime;
+
+
 @property (assign, nonatomic) BOOL isRunning;
+
+@property (strong, nonatomic) NSDictionary<NSString *, NSNumber *> *currentTime;
 @end
 
 @implementation ViewController
@@ -26,6 +29,7 @@
     [super viewDidLoad];
     self.isRunning = NO;
     NSLog(@"Running");
+    self.currentTime = @{@"ms": @0,@"secs": @0,@"mins": @0};
 //    self.timeLabel.text = @"00:00:00";
     // Do any additional setup after loading the view.
 }
@@ -46,7 +50,7 @@
     self.isRunning = YES;
     [self.startStopBtn setTitle:@"Stop" forState:UIControlStateNormal];
     self.startTime = [NSDate date];
-    self.timer = [NSTimer scheduledTimerWithTimeInterval:1.0
+    self.timer = [NSTimer scheduledTimerWithTimeInterval:0.0001
                                                   target:self
                                                 selector:@selector(updateTimeLabel)
                                                 userInfo:nil
@@ -61,10 +65,27 @@
 }
 
 - (void)updateTimeLabel {
-    NSTimeInterval elapsedTime = [[NSDate date] timeIntervalSinceDate:self.startTime];
-    NSInteger hours = (NSInteger)(elapsedTime / 3600);
-    NSInteger minutes = ((NSInteger)(elapsedTime / 60)) % 60;
-    NSInteger seconds = (NSInteger)(elapsedTime)  % 60;
-    self.timeLabel.text = [NSString stringWithFormat:@"%02ld:%02ld:%02ld", (long)hours, (long)minutes, (long)seconds];
+    NSInteger previousMs = [[self.currentTime valueForKey:@"ms"] integerValue];
+    NSInteger previousSecs = [[self.currentTime valueForKey:@"secs"] integerValue];
+    NSInteger previousMins = [[self.currentTime valueForKey:@"mins"] integerValue];
+    previousMs = previousMs + 1;
+    if(previousMs > 999) {
+        previousMs = 0;
+        previousSecs = previousSecs + 1;
+    }
+    if(previousSecs > 59) {
+        previousSecs = 0;
+        previousMins = previousMins + 1;
+    }
+    
+    self.currentTime = @{
+        @"ms": [NSNumber  numberWithInt:previousMs],
+        @"secs": [NSNumber numberWithInt:previousSecs],
+        @"mins": [NSNumber  numberWithInt:previousMins]
+    };
+    
+    NSInteger miliSecondsValue = previousMs / 100;
+    
+    self.timeLabel.text = [NSString stringWithFormat:@"%02ld:%02ld:%02ld", (long)previousMins, (long)previousSecs, (long)miliSecondsValue];
 }
 @end

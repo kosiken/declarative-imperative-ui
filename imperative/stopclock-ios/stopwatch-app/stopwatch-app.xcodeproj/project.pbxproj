@@ -7,75 +7,75 @@
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
-		CE09651E2CEE825300578020 /* PBXContainerItemProxy */ = {
+		CE9BB7A82CEE977F0064C5F0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = CE0964FA2CEE824F00578020 /* Project object */;
+			containerPortal = CE9BB7842CEE977C0064C5F0 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CE0965012CEE824F00578020;
-			remoteInfo = "imperative app";
+			remoteGlobalIDString = CE9BB78B2CEE977C0064C5F0;
+			remoteInfo = "stopwatch-app";
 		};
-		CE0965282CEE825300578020 /* PBXContainerItemProxy */ = {
+		CE9BB7B22CEE977F0064C5F0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = CE0964FA2CEE824F00578020 /* Project object */;
+			containerPortal = CE9BB7842CEE977C0064C5F0 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CE0965012CEE824F00578020;
-			remoteInfo = "imperative app";
+			remoteGlobalIDString = CE9BB78B2CEE977C0064C5F0;
+			remoteInfo = "stopwatch-app";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CE0965022CEE824F00578020 /* imperative app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "imperative app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE09651D2CEE825300578020 /* imperative appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "imperative appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE0965272CEE825300578020 /* imperative appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "imperative appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE9BB78C2CEE977C0064C5F0 /* stopwatch-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "stopwatch-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE9BB7A72CEE977F0064C5F0 /* stopwatch-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "stopwatch-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE9BB7B12CEE977F0064C5F0 /* stopwatch-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "stopwatch-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		CE09652F2CEE825300578020 /* Exceptions for "imperative app" folder in "imperative app" target */ = {
+		CE9BB7B92CEE977F0064C5F0 /* Exceptions for "stopwatch-app" folder in "stopwatch-app" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = CE0965012CEE824F00578020 /* imperative app */;
+			target = CE9BB78B2CEE977C0064C5F0 /* stopwatch-app */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		CE0965042CEE824F00578020 /* imperative app */ = {
+		CE9BB78E2CEE977C0064C5F0 /* stopwatch-app */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				CE09652F2CEE825300578020 /* Exceptions for "imperative app" folder in "imperative app" target */,
+				CE9BB7B92CEE977F0064C5F0 /* Exceptions for "stopwatch-app" folder in "stopwatch-app" target */,
 			);
-			path = "imperative app";
+			path = "stopwatch-app";
 			sourceTree = "<group>";
 		};
-		CE0965202CEE825300578020 /* imperative appTests */ = {
+		CE9BB7AA2CEE977F0064C5F0 /* stopwatch-appTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "imperative appTests";
+			path = "stopwatch-appTests";
 			sourceTree = "<group>";
 		};
-		CE09652A2CEE825300578020 /* imperative appUITests */ = {
+		CE9BB7B42CEE977F0064C5F0 /* stopwatch-appUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "imperative appUITests";
+			path = "stopwatch-appUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CE0964FF2CEE824F00578020 /* Frameworks */ = {
+		CE9BB7892CEE977C0064C5F0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CE09651A2CEE825300578020 /* Frameworks */ = {
+		CE9BB7A42CEE977F0064C5F0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CE0965242CEE825300578020 /* Frameworks */ = {
+		CE9BB7AE2CEE977F0064C5F0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -85,22 +85,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CE0964F92CEE824F00578020 = {
+		CE9BB7832CEE977C0064C5F0 = {
 			isa = PBXGroup;
 			children = (
-				CE0965042CEE824F00578020 /* imperative app */,
-				CE0965202CEE825300578020 /* imperative appTests */,
-				CE09652A2CEE825300578020 /* imperative appUITests */,
-				CE0965032CEE824F00578020 /* Products */,
+				CE9BB78E2CEE977C0064C5F0 /* stopwatch-app */,
+				CE9BB7AA2CEE977F0064C5F0 /* stopwatch-appTests */,
+				CE9BB7B42CEE977F0064C5F0 /* stopwatch-appUITests */,
+				CE9BB78D2CEE977C0064C5F0 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		CE0965032CEE824F00578020 /* Products */ = {
+		CE9BB78D2CEE977C0064C5F0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CE0965022CEE824F00578020 /* imperative app.app */,
-				CE09651D2CEE825300578020 /* imperative appTests.xctest */,
-				CE0965272CEE825300578020 /* imperative appUITests.xctest */,
+				CE9BB78C2CEE977C0064C5F0 /* stopwatch-app.app */,
+				CE9BB7A72CEE977F0064C5F0 /* stopwatch-appTests.xctest */,
+				CE9BB7B12CEE977F0064C5F0 /* stopwatch-appUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,133 +108,133 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CE0965012CEE824F00578020 /* imperative app */ = {
+		CE9BB78B2CEE977C0064C5F0 /* stopwatch-app */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CE0965302CEE825300578020 /* Build configuration list for PBXNativeTarget "imperative app" */;
+			buildConfigurationList = CE9BB7BA2CEE977F0064C5F0 /* Build configuration list for PBXNativeTarget "stopwatch-app" */;
 			buildPhases = (
-				CE0964FE2CEE824F00578020 /* Sources */,
-				CE0964FF2CEE824F00578020 /* Frameworks */,
-				CE0965002CEE824F00578020 /* Resources */,
+				CE9BB7882CEE977C0064C5F0 /* Sources */,
+				CE9BB7892CEE977C0064C5F0 /* Frameworks */,
+				CE9BB78A2CEE977C0064C5F0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				CE0965042CEE824F00578020 /* imperative app */,
+				CE9BB78E2CEE977C0064C5F0 /* stopwatch-app */,
 			);
-			name = "imperative app";
+			name = "stopwatch-app";
 			packageProductDependencies = (
 			);
-			productName = "imperative app";
-			productReference = CE0965022CEE824F00578020 /* imperative app.app */;
+			productName = "stopwatch-app";
+			productReference = CE9BB78C2CEE977C0064C5F0 /* stopwatch-app.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CE09651C2CEE825300578020 /* imperative appTests */ = {
+		CE9BB7A62CEE977F0064C5F0 /* stopwatch-appTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CE0965352CEE825300578020 /* Build configuration list for PBXNativeTarget "imperative appTests" */;
+			buildConfigurationList = CE9BB7BF2CEE977F0064C5F0 /* Build configuration list for PBXNativeTarget "stopwatch-appTests" */;
 			buildPhases = (
-				CE0965192CEE825300578020 /* Sources */,
-				CE09651A2CEE825300578020 /* Frameworks */,
-				CE09651B2CEE825300578020 /* Resources */,
+				CE9BB7A32CEE977F0064C5F0 /* Sources */,
+				CE9BB7A42CEE977F0064C5F0 /* Frameworks */,
+				CE9BB7A52CEE977F0064C5F0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CE09651F2CEE825300578020 /* PBXTargetDependency */,
+				CE9BB7A92CEE977F0064C5F0 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				CE0965202CEE825300578020 /* imperative appTests */,
+				CE9BB7AA2CEE977F0064C5F0 /* stopwatch-appTests */,
 			);
-			name = "imperative appTests";
+			name = "stopwatch-appTests";
 			packageProductDependencies = (
 			);
-			productName = "imperative appTests";
-			productReference = CE09651D2CEE825300578020 /* imperative appTests.xctest */;
+			productName = "stopwatch-appTests";
+			productReference = CE9BB7A72CEE977F0064C5F0 /* stopwatch-appTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		CE0965262CEE825300578020 /* imperative appUITests */ = {
+		CE9BB7B02CEE977F0064C5F0 /* stopwatch-appUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CE0965382CEE825300578020 /* Build configuration list for PBXNativeTarget "imperative appUITests" */;
+			buildConfigurationList = CE9BB7C22CEE977F0064C5F0 /* Build configuration list for PBXNativeTarget "stopwatch-appUITests" */;
 			buildPhases = (
-				CE0965232CEE825300578020 /* Sources */,
-				CE0965242CEE825300578020 /* Frameworks */,
-				CE0965252CEE825300578020 /* Resources */,
+				CE9BB7AD2CEE977F0064C5F0 /* Sources */,
+				CE9BB7AE2CEE977F0064C5F0 /* Frameworks */,
+				CE9BB7AF2CEE977F0064C5F0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CE0965292CEE825300578020 /* PBXTargetDependency */,
+				CE9BB7B32CEE977F0064C5F0 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				CE09652A2CEE825300578020 /* imperative appUITests */,
+				CE9BB7B42CEE977F0064C5F0 /* stopwatch-appUITests */,
 			);
-			name = "imperative appUITests";
+			name = "stopwatch-appUITests";
 			packageProductDependencies = (
 			);
-			productName = "imperative appUITests";
-			productReference = CE0965272CEE825300578020 /* imperative appUITests.xctest */;
+			productName = "stopwatch-appUITests";
+			productReference = CE9BB7B12CEE977F0064C5F0 /* stopwatch-appUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CE0964FA2CEE824F00578020 /* Project object */ = {
+		CE9BB7842CEE977C0064C5F0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1600;
 				TargetAttributes = {
-					CE0965012CEE824F00578020 = {
+					CE9BB78B2CEE977C0064C5F0 = {
 						CreatedOnToolsVersion = 16.0;
 					};
-					CE09651C2CEE825300578020 = {
+					CE9BB7A62CEE977F0064C5F0 = {
 						CreatedOnToolsVersion = 16.0;
-						TestTargetID = CE0965012CEE824F00578020;
+						TestTargetID = CE9BB78B2CEE977C0064C5F0;
 					};
-					CE0965262CEE825300578020 = {
+					CE9BB7B02CEE977F0064C5F0 = {
 						CreatedOnToolsVersion = 16.0;
-						TestTargetID = CE0965012CEE824F00578020;
+						TestTargetID = CE9BB78B2CEE977C0064C5F0;
 					};
 				};
 			};
-			buildConfigurationList = CE0964FD2CEE824F00578020 /* Build configuration list for PBXProject "imperative app" */;
+			buildConfigurationList = CE9BB7872CEE977C0064C5F0 /* Build configuration list for PBXProject "stopwatch-app" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = CE0964F92CEE824F00578020;
+			mainGroup = CE9BB7832CEE977C0064C5F0;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = CE0965032CEE824F00578020 /* Products */;
+			productRefGroup = CE9BB78D2CEE977C0064C5F0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CE0965012CEE824F00578020 /* imperative app */,
-				CE09651C2CEE825300578020 /* imperative appTests */,
-				CE0965262CEE825300578020 /* imperative appUITests */,
+				CE9BB78B2CEE977C0064C5F0 /* stopwatch-app */,
+				CE9BB7A62CEE977F0064C5F0 /* stopwatch-appTests */,
+				CE9BB7B02CEE977F0064C5F0 /* stopwatch-appUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		CE0965002CEE824F00578020 /* Resources */ = {
+		CE9BB78A2CEE977C0064C5F0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CE09651B2CEE825300578020 /* Resources */ = {
+		CE9BB7A52CEE977F0064C5F0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CE0965252CEE825300578020 /* Resources */ = {
+		CE9BB7AF2CEE977F0064C5F0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -244,21 +244,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CE0964FE2CEE824F00578020 /* Sources */ = {
+		CE9BB7882CEE977C0064C5F0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CE0965192CEE825300578020 /* Sources */ = {
+		CE9BB7A32CEE977F0064C5F0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CE0965232CEE825300578020 /* Sources */ = {
+		CE9BB7AD2CEE977F0064C5F0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -268,20 +268,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		CE09651F2CEE825300578020 /* PBXTargetDependency */ = {
+		CE9BB7A92CEE977F0064C5F0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CE0965012CEE824F00578020 /* imperative app */;
-			targetProxy = CE09651E2CEE825300578020 /* PBXContainerItemProxy */;
+			target = CE9BB78B2CEE977C0064C5F0 /* stopwatch-app */;
+			targetProxy = CE9BB7A82CEE977F0064C5F0 /* PBXContainerItemProxy */;
 		};
-		CE0965292CEE825300578020 /* PBXTargetDependency */ = {
+		CE9BB7B32CEE977F0064C5F0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CE0965012CEE824F00578020 /* imperative app */;
-			targetProxy = CE0965282CEE825300578020 /* PBXContainerItemProxy */;
+			target = CE9BB78B2CEE977C0064C5F0 /* stopwatch-app */;
+			targetProxy = CE9BB7B22CEE977F0064C5F0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		CE0965312CEE825300578020 /* Debug */ = {
+		CE9BB7BB2CEE977F0064C5F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -290,9 +290,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = SXY8MZDXJQ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "imperative app/Info.plist";
+				INFOPLIST_FILE = "stopwatch-app/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -301,14 +301,14 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.risevest.imperative-app";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.risevest.stopwatch-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		CE0965322CEE825300578020 /* Release */ = {
+		CE9BB7BC2CEE977F0064C5F0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -317,9 +317,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = SXY8MZDXJQ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "imperative app/Info.plist";
+				INFOPLIST_FILE = "stopwatch-app/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -328,14 +328,14 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.risevest.imperative-app";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.risevest.stopwatch-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		CE0965332CEE825300578020 /* Debug */ = {
+		CE9BB7BD2CEE977F0064C5F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -396,7 +396,7 @@
 			};
 			name = Debug;
 		};
-		CE0965342CEE825300578020 /* Release */ = {
+		CE9BB7BE2CEE977F0064C5F0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -451,7 +451,7 @@
 			};
 			name = Release;
 		};
-		CE0965362CEE825300578020 /* Debug */ = {
+		CE9BB7C02CEE977F0064C5F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -461,15 +461,15 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.risevest.imperative-appTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.risevest.stopwatch-appTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/imperative app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/imperative app";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/stopwatch-app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/stopwatch-app";
 			};
 			name = Debug;
 		};
-		CE0965372CEE825300578020 /* Release */ = {
+		CE9BB7C12CEE977F0064C5F0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -479,15 +479,15 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.risevest.imperative-appTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.risevest.stopwatch-appTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/imperative app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/imperative app";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/stopwatch-app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/stopwatch-app";
 			};
 			name = Release;
 		};
-		CE0965392CEE825300578020 /* Debug */ = {
+		CE9BB7C32CEE977F0064C5F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -495,15 +495,15 @@
 				DEVELOPMENT_TEAM = SXY8MZDXJQ;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.risevest.imperative-appUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.risevest.stopwatch-appUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "imperative app";
+				TEST_TARGET_NAME = "stopwatch-app";
 			};
 			name = Debug;
 		};
-		CE09653A2CEE825300578020 /* Release */ = {
+		CE9BB7C42CEE977F0064C5F0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -511,54 +511,54 @@
 				DEVELOPMENT_TEAM = SXY8MZDXJQ;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.risevest.imperative-appUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.risevest.stopwatch-appUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "imperative app";
+				TEST_TARGET_NAME = "stopwatch-app";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CE0964FD2CEE824F00578020 /* Build configuration list for PBXProject "imperative app" */ = {
+		CE9BB7872CEE977C0064C5F0 /* Build configuration list for PBXProject "stopwatch-app" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CE0965332CEE825300578020 /* Debug */,
-				CE0965342CEE825300578020 /* Release */,
+				CE9BB7BD2CEE977F0064C5F0 /* Debug */,
+				CE9BB7BE2CEE977F0064C5F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CE0965302CEE825300578020 /* Build configuration list for PBXNativeTarget "imperative app" */ = {
+		CE9BB7BA2CEE977F0064C5F0 /* Build configuration list for PBXNativeTarget "stopwatch-app" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CE0965312CEE825300578020 /* Debug */,
-				CE0965322CEE825300578020 /* Release */,
+				CE9BB7BB2CEE977F0064C5F0 /* Debug */,
+				CE9BB7BC2CEE977F0064C5F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CE0965352CEE825300578020 /* Build configuration list for PBXNativeTarget "imperative appTests" */ = {
+		CE9BB7BF2CEE977F0064C5F0 /* Build configuration list for PBXNativeTarget "stopwatch-appTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CE0965362CEE825300578020 /* Debug */,
-				CE0965372CEE825300578020 /* Release */,
+				CE9BB7C02CEE977F0064C5F0 /* Debug */,
+				CE9BB7C12CEE977F0064C5F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CE0965382CEE825300578020 /* Build configuration list for PBXNativeTarget "imperative appUITests" */ = {
+		CE9BB7C22CEE977F0064C5F0 /* Build configuration list for PBXNativeTarget "stopwatch-appUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CE0965392CEE825300578020 /* Debug */,
-				CE09653A2CEE825300578020 /* Release */,
+				CE9BB7C32CEE977F0064C5F0 /* Debug */,
+				CE9BB7C42CEE977F0064C5F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = CE0964FA2CEE824F00578020 /* Project object */;
+	rootObject = CE9BB7842CEE977C0064C5F0 /* Project object */;
 }

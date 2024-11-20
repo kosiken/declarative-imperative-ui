@@ -25,7 +25,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.isRunning = NO;
-    NSLog(@"Running");
 //    self.timeLabel.text = @"00:00:00";
     // Do any additional setup after loading the view.
 }
@@ -36,10 +35,6 @@
     } else {
         [self startStopwatch];
     }
-}
-
-- (IBAction)tiler:(id)sender {
-    
 }
 
 - (void)startStopwatch {

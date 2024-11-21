@@ -183,7 +183,9 @@ class HexCalculator(Gtk.Grid):
         self.convert_from = 10
         self.convert_to = 16
         self.convert_from_str = "Decimal"
-        self.convert_to_str = "Hexadecimal"       
+        self.convert_to_str = "Hexadecimal"  
+
+        # Create ui widgets     
         self.entry = Gtk.Entry()
         self.entry.set_placeholder_text("Enter a number")
         combo1_store = Gtk.ListStore(int, str)
@@ -261,6 +263,7 @@ class HexCalculator(Gtk.Grid):
             self.label.set_label(str(err))
             return
 
+        # Updates UI with value
         self.entry.set_text(HexCalculator.convert(self.convert_to, num))
         self.label.set_label("")
 

@@ -1,6 +1,14 @@
 # Declarative vs Imperative UI
 
- In designing the user interfaces of human facing computer applications there are a couple of approaches that we can follow. I would be going over two approaches in this session
+## Hello, I’m Kosy!
+
+I’m Kosy, a software engineer here at Rise, where I primarily focus on building mobile apps, not just some weird avatar you see on X(twitter). I’ve been with the team for quite a few months now and have a deep interest in creating intuitive user experiences. Today, I’ll be talking about something that plays a huge role in how we design and build interfaces—Declarative vs. Imperative UI. This is a topic I’m really fascinated about because it shapes how we, as developers, translate ideas into great user experiences.
+
+Feel free to ask questions during the presentation, and I’ll leave some time at the end for a more in-depth discussion
+
+### Introduction
+
+In designing the user interfaces of human facing computer applications there are a couple of approaches that we can follow. I would be going over two approaches in this session
 
 1. Declarative UI Implemntation
 2. Imperative UI Implementation
@@ -305,3 +313,10 @@ We can discern a couple of characteristics of **Imperative UI** from the code sn
 - [Android XML and Java](https://developer.android.com/develop/ui/views/layout/declaring-layout#java)
 - [Vanilla JavaScript with JQuery DOM Manipulation](https://jquery.com/)
 - [pyGTK framework](https://pypi.org/project/PyGTK/)
+
+
+### Connect with Me 
+
+If you’d like to continue the discussion or connect with me, I’d love to hear from you! You can reach me on:
+- Twitter [@kosyallison](https://x.com/kosyallison)
+Instagram: [@allisonkosy](https://www.instagram.com/allisonkosy/)

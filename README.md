@@ -318,5 +318,6 @@ We can discern a couple of characteristics of **Imperative UI** from the code sn
 ### Connect with Me 
 
 If you’d like to continue the discussion or connect with me, I’d love to hear from you! You can reach me on:
+
 - Twitter [@kosyallison](https://x.com/kosyallison)
-Instagram: [@allisonkosy](https://www.instagram.com/allisonkosy/)
+- Instagram: [@allisonkosy](https://www.instagram.com/allisonkosy/)

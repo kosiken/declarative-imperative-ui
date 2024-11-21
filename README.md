@@ -1,4 +1,4 @@
-# declarative-imperative-ui
+# Declarative vs Imperative UI
 
  In designing the user interfaces of human facing computer applications there are a couple of approaches that we can follow. I would be going over two approaches in this session
 
